@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 20px solid #000000;
+    border-radius: 50px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.animal1{
+    position: relative;
+    padding: 100px;
+    margin: 0px;
+    border: 10px ;
+    border-radius: 10px;
+}
+.animal1 p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+   opacity: 0;
+}
+.animal1:hover p{
+   
+    opacity: 1;
+}
+.animal1:hover img{
+    opacity:0.5;
+
+}
+.animal1:hover{
+    transform: scale(1.2)
+}
